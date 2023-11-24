@@ -4,7 +4,7 @@
         <div class="max-w-[800px] w-full mx-auto items-center">
             <Card>
                 <CardTitle>
-                    <div class="text-center py-4">Welcome to FastG</div>
+                    <div class="text-center py-4">Welcome to MomoAI</div>
                 </CardTitle>
                 <CardContent>
                     <Auth :appearance="{
@@ -24,6 +24,6 @@ import { Auth } from '@nuxtbase/auth-ui-vue'
 const supabaseClient = useSupabaseClient()
 
 definePageMeta({
-    layouts: 'home'
+    layout: 'home'
 })
 </script>
